@@ -30,11 +30,10 @@ const POSTS = [
     dateLabel: "8. September 2026",
     blurb: "Hiermit bingt alles, dieser Song ist vielleicht nicht besonders aber bringt dich gewiss in eine Traumwelt.",
     body: [
-      "Eigentlich habe ich nicht diesen einen Song wo ich sage das ist mein Lieblingslied, jedoch ist es der erste bei dem ich mir gedacht habe das könnte mein Lieblingssong sein."
+      "Eigentlich habe ich nicht diesen einen Song wo ich sage das ist mein Lieblingslied, jedoch ist es der erste bei dem ich mir gedacht habe das könnte mein Lieblingssong sein.", // <--- Hier fehlte das Komma
       "Dieser Song löst in mir immer eine gewisse Nostalgie aus und wirft mich in eine Traumwelt für 2:30min."
     ],
     link: "",
     linkLabel: "Quelle noch nicht öffentlich"
-  },
-  
+  }
 ];
