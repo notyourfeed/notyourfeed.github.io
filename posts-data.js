@@ -33,13 +33,17 @@ const POSTS = [
       "Eigentlich habe ich nicht diesen einen Song wo ich sage das ist mein Lieblingslied, jedoch ist es der erste bei dem ich mir gedacht habe das könnte mein Lieblingssong sein.", // <--- Hier fehlte das Komma
       "Dieser Song löst in mir immer eine gewisse Nostalgie aus und wirft mich in eine Traumwelt für 2:30min."
     ],
-    link: "<iframe
+   embed: `
+      <iframe
         src="https://widget.qobuz.com/track/167302893?zone=DE-de"
         width="378"
         height="390"
+        frameborder="0"
       >
         <p>Your browser does not support iframes.</p>
-      </iframe>",
+      </iframe>
+    `,
+    link: "",
     linkLabel: "Quelle noch nicht öffentlich"
   }
 ];
