@@ -125,6 +125,7 @@ function renderPost() {
       <div class="body-copy">
         ${post.body.map((para) => `<p>${escapeHtml(para)}</p>`).join("")}
       </div>
+      ${post.embed ? `<div style="margin: 2.5rem 0;">${post.embed}</div>` : ""}
       ${linkBlock}
       <nav class="post-nav" aria-label="Zwischen Funden blättern">
         <span>${prev ? `<a href="post.html?id=${encodeURIComponent(prev.id)}">← ${escapeHtml(prev.freq)}, älter</a>` : ""}</span>
