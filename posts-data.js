@@ -25,7 +25,7 @@ const POSTS = [
     id: "001",
     freq: "001",
     title: "Beacon - Adrift : Mein erster Song",
-    genre: "Punk",
+    genre: "Rock",
     date: "2026-09-08",
     dateLabel: "8. September 2026",
     blurb: "Hiermit bingt alles, dieser Song ist vielleicht nicht besonders aber bringt dich gewiss in eine Traumwelt.",
@@ -33,7 +33,13 @@ const POSTS = [
       "Eigentlich habe ich nicht diesen einen Song wo ich sage das ist mein Lieblingslied, jedoch ist es der erste bei dem ich mir gedacht habe das könnte mein Lieblingssong sein.", // <--- Hier fehlte das Komma
       "Dieser Song löst in mir immer eine gewisse Nostalgie aus und wirft mich in eine Traumwelt für 2:30min."
     ],
-    link: "",
+    link: "<iframe
+        src="https://widget.qobuz.com/track/167302893?zone=DE-de"
+        width="378"
+        height="390"
+      >
+        <p>Your browser does not support iframes.</p>
+      </iframe>",
     linkLabel: "Quelle noch nicht öffentlich"
   }
 ];
