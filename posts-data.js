@@ -46,4 +46,25 @@ const POSTS = [
     link: "",
     linkLabel: "Quelle noch nicht öffentlich"
   }
+{
+    id: "002",
+    freq: "002",
+    title: "Wildflower and Me - DVC Refreshments",
+    genre: "Alternative und Indie",
+    date: "2026-09-19",
+    dateLabel: "19. September 2026",
+    blurb: "Ein Song irgendwo zwischen Sommer und Herbst.",
+    body: [
+      "Diesen Song habe ich wiedergefunden beim Auto fahren. Der passte meiner Meinung nach perfekt zum übergang vom Sommer zum Herbst, die leichte Luft mit den verspielten Farben der Abenddämerung.", // <--- Hier fehlte das Komma
+    ],
+   embed:`<iframe
+        src="https://widget.qobuz.com/track/102610260?zone=DE-de"
+        width="378"
+        height="390"
+      >
+        <p>Your browser does not support iframes.</p>
+      </iframe>´,
+    link: "",
+    linkLabel: "Quelle noch nicht öffentlich"
+  }
 ];
