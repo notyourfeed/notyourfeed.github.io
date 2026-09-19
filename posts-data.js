@@ -45,7 +45,7 @@ const POSTS = [
     `,
     link: "",
     linkLabel: "Quelle noch nicht öffentlich"
-  }
+  }`,
 {
     id: "002",
     freq: "002",
@@ -63,7 +63,7 @@ const POSTS = [
         height="390"
       >
         <p>Your browser does not support iframes.</p>
-      </iframe>´,
+      </iframe>`,
     link: "",
     linkLabel: "Quelle noch nicht öffentlich"
   }
